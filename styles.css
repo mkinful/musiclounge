@@ -19,10 +19,11 @@ body {
 }
 
 .header {
-    font-size: 6.2rem;
+    font-size: 6.3rem;
     color: rgba(255, 17, 204, 0.959);
     font-weight: bolder;
     letter-spacing: 20px;
+    overflow: hidden;
 }
 
 .music-container {
@@ -130,4 +131,9 @@ body {
   transition: width 0.1s linear;
 }
 
-@media screen {}
+@media only screen {
+  .header {
+    font-size: 4rem;
+    text-align: center;
+  }
+}
